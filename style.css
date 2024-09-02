@@ -1,0 +1,69 @@
+/* Arka plan rengi açık pembe */
+body {
+    background-color: #ffe4e1; /* Açık pembe */
+    font-family: 'Poppins', sans-serif; /* Modern ve okunaklı bir font */
+}
+
+/* "Okur Cafe Rezervasyon Sistemi" yazılı kısım */
+header {
+    background-color: #ffccdd; /* Açık pembe arka plan */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* "Okur Cafe" yazılı kısım koyu pembe ve belirgin */
+header h1 {
+    color: #880e4f; /* Koyu pembe */
+    font-size: 3rem; /* Daha büyük yazı boyutu */
+    font-weight: 700; /* Kalın yazı */
+    text-shadow: 2px 2px 4px #ffe4e1; /* Yazıya gölge efekti */
+}
+
+/* Header border düzenlemesi */
+.header-pink-border {
+    border: 5px solid #880e4f; /* Koyu pembe border */
+    border-radius: 10px;
+    padding: 20px; /* Daha fazla padding */
+    text-align: center; /* Yazıyı ortalama */
+    background-color: #ffccdd; /* Daha açık pembe arka plan */
+}
+
+/* Stepper (Tarih, Saat, Misafir, Tamamla) için stil */
+.stepper {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Step'ler arasında boşluk */
+    margin-bottom: 30px; /* Stepper ve altındaki içerik arasında boşluk */
+}
+
+.step img {
+    margin-bottom: 10px; /* İkon ile yazı arasında boşluk */
+}
+
+/* Diğer başlıklar ve metinler için stil */
+h2 {
+    color: #880e4f; /* Koyu pembe */
+    font-size: 2rem; /* Büyük başlık yazısı */
+    font-weight: 600; /* Orta kalınlıkta yazı */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p, label, span {
+    color: #333; /* Daha koyu ve okunaklı metin */
+    font-size: 1.1rem; /* Biraz daha büyük yazı boyutu */
+}
+
+/* Buton stil düzenlemeleri */
+.btn-primary {
+    background-color: #880e4f; /* Koyu pembe buton */
+    border: none;
+    font-size: 1.2rem; /* Buton yazısı boyutu */
+    padding: 10px 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2); /* Butona gölge efekti */
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #660b3d; /* Hover efektiyle daha koyu pembe */
+}
